@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hexashop</title>
-    <link rel="stylesheet" href="hexashop.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
+    <div class="container">
     <header class="navbar">
         <img src="img/logo.png" alt="logo" width="150">
         <div class="logo"></div>
@@ -25,38 +26,38 @@
         </nav>
     </header>
 
-    <section class="hero">
+    <section>
+        <div class="hero">
         <div class="hero-content">
             <h1>Nós somos Hexashop</h1>
             <p>Modelo HTML5 incrível, limpo e criativo</p>
             <br>
             <button>Compre agora!</button>
-
         </div>
-
-        <div class="categories">
-        <div class="box">
-            <div id="box1" class="category">
-                <h2>Mulheres</h2>
-                <p>Melhores roupas para mulheres</p>
+     <div class="hero-right">
+        <div class="box1">
+            <div id="box1" class="categoria">
+                <h2 class="titulos">Mulheres</h2>
+                <p class="subtitulos">Melhores roupas para mulheres</p>
             </div>
-            <div id="box2" class="category">
-                <h2>Homens</h2>
-                <p>Melhores roupas para homens</p>
+            <div id="box2" class="categoria">
+                <h2 class="titulos">Homens</h2>
+                <p class="subtitulos">Melhores roupas para homens!</p>
             </div>
         </div>
 
-        <div class="box">
-            <div id="box3" class="category">
-                <h2>Crianças</h2>
-                <p>Melhores roupas para crianças</p>
+        <div class="box2">
+            <div id="box3" class="categoria">
+                <h2 class="titulos">Crianças</h2>
+                <p class="subtitulos">Melhores roupas para crianças</p>
             </div>
-            <div id="box4" class="category">
-                <h2>Acessórios</h2>
-                <p>Melhores acessórios de endência</p>
+            <div id="box4" class="categoria">
+                <h2 class="titulos">Acessórios</h2>
+                <p class="subtitulos">Melhores acessórios de endência</p>
             </div>
         </div>
-        </div>
+    </div>
+    </div>
     </section>
 
     <section class="ultimos-produtos">
@@ -126,6 +127,7 @@
     </section>
 
     <section class="explore-produtos">
+        <div class="explore">
         <h2>Explore nossos produtos</h2>
         <p>
             Bem-vindo(a) à nossa coleção! Aqui, cada peça é pensada para refletir estilo, conforto e personalidade.
@@ -143,22 +145,27 @@
             qualquer look. Encontre o que você precisa para se sentir incrível todos os dias!
         </p>
         <button>Discover More</button>
+         </div>
         <div class="destaque-produto">
-            <div class="destaque">
+            <div>
+            <div class="destaque1 top">
                 <h3>Bolsas de couro</h3>
                 <p>Última coleção</p>
             </div>
             <div class="destaque">
-                <h3>Tipos diferentes</h3>
-                <p>Mais de 304 produtos</p>
+                <img src="img/explore-image-02.jpg" alt="explore-image-02">
             </div>
+         </div>
+         <div class="destaque-bottom">
             <div class="destaque">
                 <img src="img/explore-image-01.jpg" alt="explore-image-01">
             </div>
-            <div class="destaque">
-                <img src="img/explore-image-02.jpg" alt="explore-image-02">
+            <div class="destaque1 bottom">
+                <h3>Tipos diferentes</h3>
+                <p>Mais de 304 produtos</p>
             </div>
         </div>
+    </div>
     </section>
 
     <section class="social-media">
@@ -170,10 +177,11 @@
             <img src="img/instagram-03.jpg" alt="Social Media Image 3">
             <img src="img/instagram-04.jpg" alt="Social Media Image 4">
             <img src="img/instagram-05.jpg" alt="Social Media Image 5">
+            <img src="img/instagram-06.jpg" alt="Social Media Image 5">
         </div>
     </section>
-
     <section class="informativo">
+        <div class="info-desconto">
         <h2>Ao assinar nossa newsletter você pode obter 30% de desconto</h2>
         <p>Detalhes e detalhes é o que torna o Hexashop diferente dos outros temas.</p>
         <form>
@@ -181,32 +189,37 @@
             <input type="email" placeholder="Seu e-mail">
             <button type="submit"></button>
         </form>
+      </div>
         <div class="info-contatos">
-            <div>
+            <div class="caixa1">
+                <div>
                 <h3>Localização da loja:</h3>
-                <p>Sunny Isles Beach, FL 33160, United States</p>
-            </div>
-            <div>
-                <h3>Horário de trabalho:</h3>
-                <p>07:30 AM - 9:30 PM Daily</p>
+                <p>Rua Campos Salles, 20, Centro</p>
             </div>
             <div>
                 <h3>Telefone:</h3>
-                <p>010-020-0340</p>
-            </div>
-            <div>
-                <h3>E-mail:</h3>
-                <p>info@company.com</p>
+                <p>(15)3534-8595</p>
             </div>
             <div>
                 <h3>Localização do escritório:</h3>
-                <p>North Miami Beach</p>
+                <p>Itapetininga-sp</p>
+            </div>
+                 </div>
+            <div class="caixa2">
+                <div>
+                <h3>Horário de trabalho:</h3>
+                <p>07:30 - 18:00  </p>
+            </div>
+            <div>
+                <h3>E-mail:</h3>
+                <p>hexashop@company.com</p>
             </div>
             <div>
                 <h3>Mídias sociais:</h3>
                 <p>Facebook, Instagram, Behance, LinkedIn</p>
             </div>
         </div>
+    </div>
     </section>
 
     <footer>
@@ -255,6 +268,8 @@
             </div>
         </div>
     </footer>
+
+</div>
 </body>
 
 </html>
